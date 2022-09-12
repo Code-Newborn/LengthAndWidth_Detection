@@ -26,8 +26,8 @@ FORMS += \
     mainwindow.ui
 
 # Opencv库文件路径添加
-INCLUDEPATH += D:\OpenCV-4.5.0-with-contrib-MinGW730-nonfree\include
-LIBS += D:\OpenCV-4.5.0-with-contrib-MinGW730-nonfree\x64\mingw\lib\libopencv_*.a
+INCLUDEPATH += $$PWD\OpenCV-4.5.0-with-contrib-MinGW730-nonfree\include
+LIBS += $$PWD\OpenCV-4.5.0-with-contrib-MinGW730-nonfree\x64\mingw\lib\libopencv_*.a
 
 TRANSLATIONS += \
     LengthAndWidth_Detection_zh_CN.ts
